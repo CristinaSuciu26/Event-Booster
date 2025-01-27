@@ -1,7 +1,7 @@
-import { fetchEvents } from "./js/api.js";
-import { loader } from "./js/loader.js";
-import { pagination } from "./js/pagination.js";
-import { selectTimezone } from "./js/select.js";
+import { fetchEvents } from "./src/js/api.js";
+import { loader } from "./src/js/loader.js";
+import { pagination } from "./src/js/pagination.js";
+import { selectTimezone } from "./src/js/select.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
   try {
