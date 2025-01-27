@@ -1,0 +1,20 @@
+{
+  "name": "event-booster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://CristinaSuciu26.github.io/Event-Booster",
+  "scripts": {
+    "build": "echo No build process needed",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://CristinaSuciu26.github.io/Event-Booster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
