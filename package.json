@@ -4,13 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
-    "url": "https://CristinaSuciu26.github.io/Event-Booster"
+    "url": "https://github.com/CristinaSuciu26/Event-Booster.git"
   },
   "author": "",
   "license": "ISC",
