@@ -3,18 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://CristinaSuciu26.github.io/Event-Booster",
+  "homepage": "https://CristinaSuciu26.github.io/Event-Booster.git",
   "scripts": {
-    "build": "echo No build process needed",
-    "deploy": "gh-pages -d ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://CristinaSuciu26.github.io/Event-Booster.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "parcel": "^2.13.3"
   }
 }
