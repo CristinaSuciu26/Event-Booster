@@ -2,10 +2,12 @@
   "name": "event-booster",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "homepage": "https://CristinaSuciu26.github.io/Event-Booster.git",
+  "homepage": "https://CristinaSuciu26.github.io/Event-Booster",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
