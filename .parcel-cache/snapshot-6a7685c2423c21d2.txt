@@ -1,4 +1,4 @@
-11586
+11637
 70C:\Users\Cris\Desktop\Event\node_modules\@jridgewell\set-array\LICENSE133832425407271400 0
 87C:\Users\Cris\Desktop\Event\node_modules\wrap-ansi-cjs\node_modules\strip-ansi\index.js133832427010926605 0
 86C:\Users\Cris\Desktop\Event\node_modules\stylehacks\types\dictionary\browsers.d.ts.map133832427041466955 0
@@ -350,6 +350,7 @@
 68C:\Users\Cris\Desktop\Event\node_modules\nanoid\non-secure\index.cjs133832427022142405 0
 58C:\Users\Cris\Desktop\Event\node_modules\svgo\package.json133832427045269522 0
 88C:\Users\Cris\Desktop\Event\node_modules\string-width\node_modules\strip-ansi\index.d.ts133832427018858376 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\53\9106fb451b7a034ebd5261b4a911a59b293086133832434284473448 0
 58C:\Users\Cris\Desktop\Event\node_modules\uuid\package.json133832425885359122 0
 54C:\Users\Cris\Desktop\Event\node_modules\async-limiter133832425697958022 1
 95C:\Users\Cris\Desktop\Event\node_modules\jsdom\lib\jsdom\living\nodes\HTMLSourceElement-impl.js133832426206526061 0
@@ -1125,7 +1126,7 @@
 80C:\Users\Cris\Desktop\Event\node_modules\@parcel\packager-svg\lib\SVGPackager.js133832425464283968 0
 52C:\Users\Cris\Desktop\Event\node_modules\locate-path133832425563303785 1
 58C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\tail.js133832426293674734 0
-115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\53133832430932394514 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\53133832434285723377 1
 68C:\Users\Cris\Desktop\Event\node_modules\@parcel\watcher\src\windows133832426002733634 1
 102C:\Users\Cris\Desktop\Event\node_modules\parse5\lib\extensions\position-tracking\preprocessor-mixin.js133832425894876876 0
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\whereEq.js133832426305166478 0
@@ -1659,6 +1660,7 @@
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\de133832430926878834 1
 91C:\Users\Cris\Desktop\Event\node_modules\foreground-child\node_modules\cross-spawn\index.js133832427017880193 0
 53C:\Users\Cris\Desktop\Event\node_modules\uuid\AUTHORS133832425386254806 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\f3\b84931b7a1009803d365e241dc54a07ab628b4133832434296261485 0
 53C:\Users\Cris\Desktop\Event\node_modules\tunnel-agent133832425503181500 1
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\SL.js133832426284272242 0
 72C:\Users\Cris\Desktop\Event\node_modules\svgo\plugins\convertPathData.js133832427074345216 0
@@ -1680,6 +1682,7 @@
 70C:\Users\Cris\Desktop\Event\node_modules\mdn-data\css\definitions.json133832427028941494 0
 64C:\Users\Cris\Desktop\Event\node_modules\braces\lib\stringify.js133832425721793063 0
 74C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\properties\margin.js133832426047009755 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\f1\1ef616f008b3d96832c6d0c8c7431194998d75133832434283539896 0
 53C:\Users\Cris\Desktop\Event\node_modules\universalify133832425507304271 1
 73C:\Users\Cris\Desktop\Event\node_modules\jackspeak\dist\esm\parse-args.js133832427021647219 0
 69C:\Users\Cris\Desktop\Event\node_modules\whatwg-mimetype\lib\utils.js133832425717524034 0
@@ -2225,7 +2228,7 @@
 74C:\Users\Cris\Desktop\Event\node_modules\posthtml\node_modules\htmlparser2133832425845913071 1
 57C:\Users\Cris\Desktop\Event\node_modules\dotenv\config.js133832425498852688 0
 64C:\Users\Cris\Desktop\Event\node_modules\supports-color\index.js133832425494840745 0
-118C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.js133832430922000706 0
+118C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.js133832434294784819 0
 81C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\array-flat.js133832425987012178 0
 65C:\Users\Cris\Desktop\Event\node_modules\queue-microtask\index.js133832425440276585 0
 64C:\Users\Cris\Desktop\Event\node_modules\prelude-ls\CHANGELOG.md133832425509690136 0
@@ -2271,7 +2274,7 @@
 56C:\Users\Cris\Desktop\Event\node_modules\uri-js\dist\es5133832426010065484 1
 62C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\toNumber.js133832426296125808 0
 102C:\Users\Cris\Desktop\Event\node_modules\uncss\node_modules\postcss-selector-parser\dist\util\index.js133832426044954385 0
-110C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\index133832430931893987 0
+110C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\index133832434304343660 0
 76C:\Users\Cris\Desktop\Event\node_modules\@jridgewell\sourcemap-codec\LICENSE133832425406550905 0
 72C:\Users\Cris\Desktop\Event\node_modules\uri-js\dist\esnext\index.js.map133832425949375553 0
 76C:\Users\Cris\Desktop\Event\node_modules\uri-js\dist\esnext\regexps-uri.d.ts133832426006929820 0
@@ -2396,6 +2399,7 @@
 72C:\Users\Cris\Desktop\Event\node_modules\htmlparser2\lib\esm\Parser.d.ts133832425986707961 0
 76C:\Users\Cris\Desktop\Event\node_modules\@parcel\watcher\src\watchman\IPC.hh133832425986707961 0
 84C:\Users\Cris\Desktop\Event\node_modules\update-browserslist-db\check-npm-version.js133832425443873938 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\7c\2513abcdfad02c8c1a1745de805235c976e3f1133832434282758686 0
 70C:\Users\Cris\Desktop\Event\node_modules\update-browserslist-db\cli.js133832425494840745 0
 67C:\Users\Cris\Desktop\Event\node_modules\domutils\lib\querying.d.ts133832426047365908 0
 37C:\Users\Cris\Desktop\Event\.cache\27133832412606411525 1
@@ -2798,6 +2802,7 @@
 96C:\Users\Cris\Desktop\Event\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.h133832426097181907 0
 83C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\dist\version.js133832427094666368 0
 60C:\Users\Cris\Desktop\Event\node_modules\lodash\package.json133832426306673601 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\3f\4e49d3e6ffaf857ba6574a906a143ed3b8e422133832434295480222 0
 73C:\Users\Cris\Desktop\Event\node_modules\type-fest\source\promisable.d.ts133832425960605021 0
 63C:\Users\Cris\Desktop\Event\node_modules\css-tree\cjs\tokenizer133832427085893456 1
 126C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\hooks\pre-push.sample133832430891993337 0
@@ -3706,6 +3711,7 @@
 56C:\Users\Cris\Desktop\Event\node_modules\abab\index.d.ts133832425711768176 0
 76C:\Users\Cris\Desktop\Event\node_modules\request-promise-native\package.json133832425530377151 0
 60C:\Users\Cris\Desktop\Event\node_modules\html-tags\readme.md133832425508704037 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\cc133832434296261485 1
 64C:\Users\Cris\Desktop\Event\node_modules\lodash\_asciiToArray.js133832425901161808 0
 73C:\Users\Cris\Desktop\Event\node_modules\request-promise-native\README.md133832425594239999 0
 73C:\Users\Cris\Desktop\Event\node_modules\request-promise-native\lib\rp.js133832425497095080 0
@@ -4117,7 +4123,7 @@
 58C:\Users\Cris\Desktop\Event\node_modules\lodash\release.md133832426306673601 0
 79C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\properties\paddingLeft.js133832426052956494 0
 94C:\Users\Cris\Desktop\Event\node_modules\posthtml\node_modules\posthtml-parser\dist\index.d.ts133832425716506703 0
-168C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\pack\pack-f35b741fb7acefbfd0a33abd02c8c99c8c68a66d.pack133832430923616212 0
+168C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\pack\pack-f35b741fb7acefbfd0a33abd02c8c99c8c68a66d.pack133832434295323984 0
 92C:\Users\Cris\Desktop\Event\node_modules\posthtml\node_modules\posthtml-parser\dist\index.js133832425500356961 0
 81C:\Users\Cris\Desktop\Event\node_modules\json-parse-even-better-errors\LICENSE.md133832425511145364 0
 78C:\Users\Cris\Desktop\Event\node_modules\posthtml\node_modules\htmlparser2\lib133832425894647992 1
@@ -4343,7 +4349,7 @@
 91C:\Users\Cris\Desktop\Event\node_modules\jsdom\lib\jsdom\living\nodes\SVGSVGElement-impl.js133832426209344550 0
 95C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\lib\syntax\config\walker.js133832427094924534 0
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\_baseIsNaN.js133832426051253406 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c9\0385a61a7f5ed84f7b028aa61ba5352c88af5b133832430923616212 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c9\0385a61a7f5ed84f7b028aa61ba5352c88af5b133832434295480222 0
 92C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\src\_tagged_template_literal_loose.mjs133832426208450630 0
 74C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_non_iterable_rest133832426183345953 1
 95C:\Users\Cris\Desktop\Event\node_modules\postcss-selector-parser\dist\selectors\constructors.js133832425698113768 0
@@ -4422,6 +4428,7 @@
 94C:\Users\Cris\Desktop\Event\node_modules\htmlparser2\node_modules\entities\lib\esm\escape.d.ts133832426051161583 0
 81C:\Users\Cris\Desktop\Event\node_modules\jsdom\lib\jsdom\living\xmlhttprequest.js133832426226671821 0
 53C:\Users\Cris\Desktop\Event\node_modules\lodash\at.js133832426191722235 0
+118C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.1303bb05.css133832434294734871 0
 85C:\Users\Cris\Desktop\Event\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64133832425623632505 1
 86C:\Users\Cris\Desktop\Event\node_modules\postcss-ordered-values\src\rules\listStyle.js133832427031447160 0
 83C:\Users\Cris\Desktop\Event\node_modules\postcss-ordered-values\src\lib\getValue.js133832427026317769 0
@@ -4656,6 +4663,7 @@
 57C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\nth.js133832426238974010 0
 91C:\Users\Cris\Desktop\Event\node_modules\postcss-merge-longhand\types\lib\getValue.d.ts.map133832427045710934 0
 58C:\Users\Cris\Desktop\Event\node_modules\find-up\readme.md133832425588722420 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\ac133832434297199229 1
 90C:\Users\Cris\Desktop\Event\node_modules\postcss-merge-longhand\types\lib\hasAllProps.d.ts133832427076931407 0
 86C:\Users\Cris\Desktop\Event\node_modules\jsdom\lib\jsdom\browser\default-stylesheet.js133832425773431457 0
 94C:\Users\Cris\Desktop\Event\node_modules\postcss-merge-longhand\types\lib\hasAllProps.d.ts.map133832427045710934 0
@@ -4835,7 +4843,7 @@
 62C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\toFinite.js133832426295179039 0
 90C:\Users\Cris\Desktop\Event\node_modules\postcss-calc\node_modules\postcss-selector-parser133832427045710934 1
 64C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\parsers.js133832425845819304 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b8\7ba8070ce29e8ecf797a12f724316ba517be4d133832430926878834 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b8\7ba8070ce29e8ecf797a12f724316ba517be4d133832434299073843 0
 95C:\Users\Cris\Desktop\Event\node_modules\postcss-calc\node_modules\postcss-selector-parser\dist133832427042956346 1
 57C:\Users\Cris\Desktop\Event\node_modules\parse5\lib\utils133832425987948590 1
 102C:\Users\Cris\Desktop\Event\node_modules\postcss-calc\node_modules\postcss-selector-parser\LICENSE-MIT133832427005113878 0
@@ -5185,7 +5193,7 @@
 57C:\Users\Cris\Desktop\Event\node_modules\is-json\index.js133832425587765405 0
 82C:\Users\Cris\Desktop\Event\node_modules\lmdb\node_modules\node-addon-api\index.js133832425892890916 0
 80C:\Users\Cris\Desktop\Event\node_modules\parse5\lib\extensions\position-tracking133832425894144654 1
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\5f\675dd7a2c80389906cac686f5d141f8942d2df133832430924024144 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\5f\675dd7a2c80389906cac686f5d141f8942d2df133832434295480222 0
 92C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\node_modules\semver\functions\valid.js133832426011801079 0
 104C:\Users\Cris\Desktop\Event\node_modules\parse5\lib\extensions\location-info\open-element-stack-mixin.js133832425868054453 0
 37C:\Users\Cris\Desktop\Event\.cache\d1133832412609335084 1
@@ -5219,6 +5227,7 @@
 58C:\Users\Cris\Desktop\Event\node_modules\parcel\src\bin.js133832427274985539 0
 58C:\Users\Cris\Desktop\Event\node_modules\parcel\src\cli.js133832427275079638 0
 79C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\properties\borderRight.js133832425986707961 0
+123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\pic-mobile.548db800.png133832434294855249 0
 70C:\Users\Cris\Desktop\Event\node_modules\parcel\node_modules\commander133832427276831051 1
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\_arrayPush.js133832425841419459 0
 85C:\Users\Cris\Desktop\Event\node_modules\jsdom\lib\jsdom\living\generated\FileList.js133832426084334346 0
@@ -5336,6 +5345,7 @@
 78C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\properties\paddingTop.js133832426054367423 0
 80C:\Users\Cris\Desktop\Event\node_modules\asynckit\lib\readable_serial_ordered.js133832425881493901 0
 60C:\Users\Cris\Desktop\Event\node_modules\isstream\.npmignore133832425435676433 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b4\14859a0c72689994906767dff0ca4718ed011d133832434281821176 0
 70C:\Users\Cris\Desktop\Event\node_modules\nullthrows\nullthrows.js.flow133832425590955838 0
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\omitAll.js133832426240906650 0
 58C:\Users\Cris\Desktop\Event\node_modules\fastq\SECURITY.md133832425787550767 0
@@ -5408,6 +5418,7 @@
 57C:\Users\Cris\Desktop\Event\node_modules\lodash\number.js133832426240431745 0
 70C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\templateSettings.js133832426294427210 0
 63C:\Users\Cris\Desktop\Event\node_modules\html-tags\package.json133832425386497131 0
+117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.3d214d75.js133832434294744851 0
 59C:\Users\Cris\Desktop\Event\node_modules\nanoid\index.d.cts133832427027223933 0
 58C:\Users\Cris\Desktop\Event\node_modules\is-glob\README.md133832425554874677 0
 58C:\Users\Cris\Desktop\Event\node_modules\nanoid\index.d.ts133832427040113626 0
@@ -5506,6 +5517,7 @@
 90C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-image\src\ImageTransformer.js133832425502269415 0
 59C:\Users\Cris\Desktop\Event\node_modules\msgpackr\stream.js133832425903062828 0
 62C:\Users\Cris\Desktop\Event\node_modules\msgpackr\unpack.d.cts133832425787350942 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\14\babec65411fc7bfe18d31fce69aa0e5fa28d15133832434304031180 0
 60C:\Users\Cris\Desktop\Event\node_modules\async\findSeries.js133832426042438916 0
 59C:\Users\Cris\Desktop\Event\node_modules\msgpackr\unpack.js133832425958653105 0
 72C:\Users\Cris\Desktop\Event\node_modules\msgpackr\dist\index-no-eval.cjs133832425501866155 0
@@ -5788,7 +5800,7 @@
 62C:\Users\Cris\Desktop\Event\node_modules\lodash\_setToArray.js133832426170724475 0
 59C:\Users\Cris\Desktop\Event\node_modules\lodash\isNative.js133832426234392010 0
 56C:\Users\Cris\Desktop\Event\node_modules\lodash\isNil.js133832426234392010 0
-119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\search.bab3328d.svg133832430922000706 0
+119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\search.bab3328d.svg133832434294774830 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\SI.js133832426283610778 0
 58C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\find.js133832426210445079 0
 62C:\Users\Cris\Desktop\Event\node_modules\lodash\_baseForOwn.js133832426011102374 0
@@ -6029,7 +6041,7 @@
 66C:\Users\Cris\Desktop\Event\node_modules\commander\lib\argument.js133832425467245190 0
 55C:\Users\Cris\Desktop\Event\node_modules\lmdb\native.js133832426109981456 0
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\_baseEvery.js133832425997553036 0
-114C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\HEAD133832430932394514 0
+114C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\HEAD133832434304812401 0
 59C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\_util.js133832426180837474 0
 62C:\Users\Cris\Desktop\Event\node_modules\lodash\_baseFilter.js133832426005082954 0
 78C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\properties\borderLeft.js133832425970693908 0
@@ -6239,12 +6251,13 @@
 65C:\Users\Cris\Desktop\Event\node_modules\lodash\_reInterpolate.js133832426169926357 0
 107C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-js\node_modules\semver\internal\identifiers.js133832425891530388 0
 66C:\Users\Cris\Desktop\Event\node_modules\lodash\_replaceHolders.js133832426169995657 0
+121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.3d214d75.js.map133832434294754846 0
 72C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\test-utils.js133832426125514680 0
 92C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_class_private_field_loose_key.cjs133832425958809352 0
 56C:\Users\Cris\Desktop\Event\node_modules\lodash\_root.js133832426170247910 0
 59C:\Users\Cris\Desktop\Event\node_modules\lodash\_safeGet.js133832426170247910 0
 66C:\Users\Cris\Desktop\Event\node_modules\csso\lib\replace\index.js133832427080905273 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\3e\ac587fd47947b94830494481f3fc3e5c6aef61133832430928634568 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\3e\ac587fd47947b94830494481f3fc3e5c6aef61133832434300906339 0
 63C:\Users\Cris\Desktop\Event\node_modules\lodash\_setCacheAdd.js133832426170430862 0
 63C:\Users\Cris\Desktop\Event\node_modules\lodash\_setCacheHas.js133832426170430862 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\MK.js133832426233444518 0
@@ -6286,6 +6299,7 @@
 95C:\Users\Cris\Desktop\Event\node_modules\foreground-child\node_modules\shebang-command\index.js133832427010926605 0
 81C:\Users\Cris\Desktop\Event\node_modules\dom-serializer\node_modules\entities\lib133832426052253085 1
 56C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\at.js133832426191722235 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\3f133832434295792721 1
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\attempt.js133832426192128943 0
 87C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\cjs\lexer\match.cjs133832427080611880 0
 109C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-posthtml\node_modules\semver\functions\coerce.js133832425601219593 0
@@ -6339,6 +6353,7 @@
 63C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\dropWhile.js133832426207278077 0
 72C:\Users\Cris\Desktop\Event\node_modules\lightningcss\node\index.js.flow133832425649966242 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\NU.js133832426236150851 0
+122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.1303bb05.css.map133832434294744851 0
 58C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\each.js133832426207434330 0
 63C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\eachRight.js133832426207528936 0
 75C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\src\resolveOptions.js133832426114709090 0
@@ -6346,7 +6361,7 @@
 87C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\font-size-adjust.js133832426198749559 0
 110C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-html\node_modules\semver\ranges\to-comparators.js133832426011102374 0
 62C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\endsWith.js133832426207780150 0
-99C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git133832430920906998 1
+99C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git133832434294684912 1
 115C:\Users\Cris\Desktop\Event\node_modules\dom-serializer\node_modules\entities\lib\generated\decode-data-html.js.map133832425974963993 0
 86C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\src\public\MutableBundleGraph.js133832426082326918 0
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\entries.js133832426207780150 0
@@ -6368,6 +6383,7 @@
 94C:\Users\Cris\Desktop\Event\node_modules\htmlparser2\node_modules\entities\lib\decode.d.ts.map133832425987867528 0
 60C:\Users\Cris\Desktop\Event\node_modules\indexes-of\index.js133832425566642675 0
 71C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\findLastIndexFrom.js133832426221262365 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\19133832434287285802 1
 65C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\flattenDeep.js133832426226100611 0
 94C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\cjs\syntax\node\String.cjs133832427083686498 0
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c0133832430925129611 1
@@ -6382,7 +6398,7 @@
 63C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\fromPairs.js133832426227578070 0
 57C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\gte.js133832426228367721 0
 59C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\hasIn.js133832426228692279 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\a5\291d5217f5b2aef2abb4f3eb9f5e370980a8c5133832430925633561 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\a5\291d5217f5b2aef2abb4f3eb9f5e370980a8c5133832434297667945 0
 65C:\Users\Cris\Desktop\Event\node_modules\@parcel\cache\index.d.ts133832425881044992 0
 58C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\head.js133832426228752230 0
 63C:\Users\Cris\Desktop\Event\node_modules\lodash\fp\identical.js133832426228878088 0
@@ -6638,6 +6654,7 @@
 73C:\Users\Cris\Desktop\Event\node_modules\css-tree\cjs\syntax\node\Raw.cjs133832427083882310 0
 99C:\Users\Cris\Desktop\Event\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\intro.doc133832426082659736 0
 90C:\Users\Cris\Desktop\Event\node_modules\jsdom\lib\jsdom\living\nodes\DocumentType-impl.js133832426195390900 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\ae\4c4c9e72b325f89e6c2bfa3098206bbed427af133832434298292647 0
 97C:\Users\Cris\Desktop\Event\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\LICENSE133832425783247836 0
 96C:\Users\Cris\Desktop\Event\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h133832426086073331 0
 101C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-js\node_modules\semver\internal\debug.js133832425819218993 0
@@ -7304,7 +7321,7 @@
 65C:\Users\Cris\Desktop\Event\node_modules\js-yaml\lib\type\omap.js133832425954670616 0
 66C:\Users\Cris\Desktop\Event\node_modules\js-yaml\lib\type\pairs.js133832425956348194 0
 80C:\Users\Cris\Desktop\Event\node_modules\cssstyle\lib\properties\borderBottom.js133832425948900560 0
-123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.css.map133832430922000706 0
+123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.css.map133832434294784819 0
 64C:\Users\Cris\Desktop\Event\node_modules\js-yaml\lib\type\seq.js133832425960006067 0
 70C:\Users\Cris\Desktop\Event\node_modules\@parcel\cache\src\IDBCache.js133832425724506238 0
 100C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\cjs\syntax\node\MediaFeature.cjs133832427080694240 0
@@ -7341,7 +7358,7 @@
 87C:\Users\Cris\Desktop\Event\node_modules\jackspeak\dist\commonjs\parse-args-cjs.cjs.map133832427034240874 0
 80C:\Users\Cris\Desktop\Event\node_modules\jackspeak\dist\commonjs\parse-args.d.ts133832427039957364 0
 78C:\Users\Cris\Desktop\Event\node_modules\jackspeak\dist\commonjs\parse-args.js133832427020202362 0
-122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.1fb38efc.css.map133832430922000706 0
+122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.1fb38efc.css.map133832434294744851 0
 98C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-posthtml\node_modules\semver\index.js133832425901161808 0
 59C:\Users\Cris\Desktop\Event\node_modules\isstream\.jshintrc133832425710766207 0
 59C:\Users\Cris\Desktop\Event\node_modules\indexes-of\test.js133832425611245504 0
@@ -7370,6 +7387,7 @@
 84C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\border-radius.js133832426066002999 0
 61C:\Users\Cris\Desktop\Event\node_modules\is-html\package.json133832425386497131 0
 59C:\Users\Cris\Desktop\Event\node_modules\fs.realpath\old.js133832425594472194 0
+134C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes\origin\main133832434289748722 0
 58C:\Users\Cris\Desktop\Event\node_modules\is-html\readme.md133832425509149147 0
 57C:\Users\Cris\Desktop\Event\node_modules\is-glob\index.js133832425444258652 0
 56C:\Users\Cris\Desktop\Event\node_modules\is-glob\LICENSE133832425418597172 0
@@ -8128,7 +8146,7 @@
 81C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_async_to_generator.cjs133832425815097152 0
 72C:\Users\Cris\Desktop\Event\node_modules\domutils\lib\traversal.d.ts.map133832426012579458 0
 68C:\Users\Cris\Desktop\Event\node_modules\css-tree\lib\utils\names.js133832427091194313 0
-110C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.html133832430922000706 0
+110C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.html133832434294754846 0
 66C:\Users\Cris\Desktop\Event\node_modules\domutils\lib\traversal.js133832425892619194 0
 70C:\Users\Cris\Desktop\Event\node_modules\domutils\lib\traversal.js.map133832426014618294 0
 65C:\Users\Cris\Desktop\Event\node_modules\css-what\lib\es\parse.js133832427022142405 0
@@ -8381,7 +8399,7 @@
 64C:\Users\Cris\Desktop\Event\node_modules\cssom\lib\StyleSheet.js133832425945949955 0
 49C:\Users\Cris\Desktop\Event\node_modules\csso\lib133832427082497805 1
 83C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\script-defer.js133832426278805079 0
-120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\favicon.ad0df82b.ico133832430922156937 0
+120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\favicon.ad0df82b.ico133832434294855249 0
 67C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\mdn-data133832427043867133 1
 71C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\mdn-data\css133832427043462656 1
 76C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\mdn-data\index.js133832427018036449 0
@@ -8461,7 +8479,7 @@
 86C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\css-reflections.js133832426165422979 0
 95C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\lib\syntax\node\Function.js133832427088632454 0
 91C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\lib\syntax\node\Hash.js133832427088897794 0
-115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b4133832430927882491 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b4133832434282290208 1
 97C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\lib\syntax\node\Identifier.js133832427089054040 0
 107C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-parse-selector.js133832427089158897 0
 98C:\Users\Cris\Desktop\Event\node_modules\csso\node_modules\css-tree\lib\syntax\node\index-parse.js133832427089158897 0
@@ -8787,7 +8805,7 @@
 83C:\Users\Cris\Desktop\Event\node_modules\css-tree\lib\syntax\function\expression.js133832427088897794 0
 60C:\Users\Cris\Desktop\Event\node_modules\callsites\readme.md133832425588316892 0
 76C:\Users\Cris\Desktop\Event\node_modules\css-tree\lib\syntax\config\lexer.js133832427090404759 0
-117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\logo.fe047d72.svg133832430922000706 0
+117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\logo.fe047d72.svg133832434294764833 0
 77C:\Users\Cris\Desktop\Event\node_modules\css-tree\lib\syntax\config\parser.js133832427091905232 0
 77C:\Users\Cris\Desktop\Event\node_modules\css-tree\lib\syntax\config\walker.js133832427095335449 0
 80C:\Users\Cris\Desktop\Event\node_modules\css-tree\lib\syntax\atrule\font-face.js133832427088897794 0
@@ -8945,7 +8963,7 @@
 85C:\Users\Cris\Desktop\Event\node_modules\css-declaration-sorter\src\orders\smacss.mjs133832427032423969 0
 81C:\Users\Cris\Desktop\Event\node_modules\css-declaration-sorter\src\core\main.mjs133832427028414516 0
 77C:\Users\Cris\Desktop\Event\node_modules\css-declaration-sorter\dist\main.cjs133832427010636217 0
-104C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git133832430932394514 1
+104C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git133832434304812401 1
 60C:\Users\Cris\Desktop\Event\node_modules\cosmiconfig\LICENSE133832425414119458 0
 62C:\Users\Cris\Desktop\Event\node_modules\cosmiconfig\README.md133832426006318624 0
 75C:\Users\Cris\Desktop\Event\node_modules\cosmiconfig\dist\cacheWrapper.d.ts133832426007338500 0
@@ -9119,6 +9137,7 @@
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\GE.js133832426201765215 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\GH.js133832426202669524 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\GM.js133832426203014203 0
+121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\location.20556ec9.svg133832434294754846 0
 76C:\Users\Cris\Desktop\Event\node_modules\@parcel\types-internal\package.json133832425879866718 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\GN.js133832426203014203 0
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\67133832430931893987 1
@@ -9190,6 +9209,7 @@
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\TR.js133832426293041897 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\TZ.js133832426293371424 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\UA.js133832426293624198 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\ae133832434299073843 1
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\UZ.js133832426294176721 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\VG.js133832426294583457 0
 72C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\regions\WS.js133832426303452917 0
@@ -9295,6 +9315,7 @@
 78C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\datauri.js133832426180933199 0
 37C:\Users\Cris\Desktop\Event\.cache\be133832412609178842 1
 81C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\decorators.js133832426182687196 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\65\745f81e9d930d9deb4f490c0ba1a01ffa2167a133832434281474233 0
 87C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\devicepixelratio.js133832426183345953 0
 84C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\dispatchevent.js133832426183596688 0
 78C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\history.js133832426206430202 0
@@ -9389,7 +9410,7 @@
 79C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\passkeys.js133832426237389378 0
 80C:\Users\Cris\Desktop\Event\node_modules\@parcel\runtime-js\src\helpers\.babelrc133832425428617602 0
 84C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\passwordrules.js133832426237389378 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\bf\11c694cefd23909d05aed110d402551391cd43133832430926031399 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\bf\11c694cefd23909d05aed110d402551391cd43133832434297823934 0
 89C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\picture-in-picture.js133832426237895304 0
 78C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\picture.js133832426237935266 0
 80C:\Users\Cris\Desktop\Event\node_modules\caniuse-lite\data\features\png-alpha.js133832426238166037 0
@@ -9757,6 +9778,7 @@
 53C:\Users\Cris\Desktop\Event\node_modules\@swc\counter133832425506632039 1
 68C:\Users\Cris\Desktop\Event\node_modules\@swc\types\assumptions.d.ts133832425616415688 0
 66C:\Users\Cris\Desktop\Event\node_modules\@swc\types\assumptions.js133832425443312157 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\14133832434304343660 1
 60C:\Users\Cris\Desktop\Event\node_modules\@swc\types\index.js133832425494586934 0
 64C:\Users\Cris\Desktop\Event\node_modules\@swc\types\package.json133832425511948988 0
 61C:\Users\Cris\Desktop\Event\node_modules\@swc\types\README.md133832425589817508 0
@@ -9845,7 +9867,7 @@
 81C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_ts_metadata\package.json133832426194139659 0
 90C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_ts_dispose_resources\package.json133832426193889176 0
 81C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_ts_decorate\package.json133832426193636026 0
-119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\COMMIT_EDITMSG133832430931893987 0
+119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\COMMIT_EDITMSG133832434304343660 0
 96C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_ts_add_disposable_resource\package.json133832426193384498 0
 85C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_to_property_key\package.json133832426193228237 0
 82C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_to_primitive\package.json133832426192978294 0
@@ -9853,6 +9875,7 @@
 99C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_tagged_template_literal_loose\package.json133832426191878451 0
 85C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_sliced_to_array\package.json133832426191478478 0
 95C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_skip_first_generator_next\package.json133832426190967456 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\4f\0ff26923639398691d96d90280ccae5b4a6d0e133832434280921775 0
 86C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_set_prototype_of\package.json133832426189211422 0
 73C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\_\_set\package.json133832426190466196 0
 84C:\Users\Cris\Desktop\Event\node_modules\@parcel\watcher\src\linux\InotifyBackend.hh133832425983599717 0
@@ -10107,6 +10130,7 @@
 66C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_set.cjs133832426054770911 0
 79C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_set_prototype_of.cjs133832426054211175 0
 88C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_skip_first_generator_next.cjs133832426055009891 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\90133832434288379608 1
 78C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_sliced_to_array.cjs133832426063745315 0
 78C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_super_prop_base.cjs133832426065252119 0
 86C:\Users\Cris\Desktop\Event\node_modules\@swc\helpers\cjs\_tagged_template_literal.cjs133832426068169409 0
@@ -10315,7 +10339,7 @@
 68C:\Users\Cris\Desktop\Event\node_modules\@parcel\config-default\test133832425494743179 1
 101C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\fixtures\config-plugin-not-found\.parcelrc133832425732871103 0
 68C:\Users\Cris\Desktop\Event\node_modules\@parcel\utils\src\stream.js133832426066414396 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\ee\2324932b1c9b96d34067064367ec0d9ea7749e133832430924370847 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\ee\2324932b1c9b96d34067064367ec0d9ea7749e133832434296261485 0
 66C:\Users\Cris\Desktop\Event\node_modules\@parcel\utils\src\svgo.js133832426068332282 0
 69C:\Users\Cris\Desktop\Event\node_modules\@parcel\utils\src\urlJoin.js133832426070522030 0
 67C:\Users\Cris\Desktop\Event\node_modules\@parcel\utils\lib\index.js133832426016124056 0
@@ -10361,6 +10385,7 @@
 93C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-svg\node_modules\semver\index.js133832425900609917 0
 93C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-svg\node_modules\semver\internal133832425996735479 1
 92C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-svg\node_modules\semver\LICENSE133832425426596990 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\45\d5fc3581ef8fa5f1686b68e73e4a581d3c078b133832434299073843 0
 94C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-svg\node_modules\semver\range.bnf133832425455010220 0
 94C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-svg\node_modules\semver\README.md133832426015722300 0
 98C:\Users\Cris\Desktop\Event\node_modules\@parcel\transformer-svg\node_modules\semver\ranges\gtr.js133832425887614842 0
@@ -10864,7 +10889,7 @@
 70C:\Users\Cris\Desktop\Event\node_modules\@parcel\optimizer-swc\LICENSE133832425417476293 0
 75C:\Users\Cris\Desktop\Event\node_modules\@parcel\optimizer-swc\package.json133832425560754075 0
 82C:\Users\Cris\Desktop\Event\node_modules\@parcel\optimizer-swc\src\SwcOptimizer.js133832425502269415 0
-111C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\config133832430930148765 0
+111C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\config133832434302312518 0
 82C:\Users\Cris\Desktop\Event\node_modules\@parcel\optimizer-swc\lib\SwcOptimizer.js133832425464596453 0
 76C:\Users\Cris\Desktop\Event\node_modules\@parcel\optimizer-svgo\package.json133832425560744085 0
 67C:\Users\Cris\Desktop\Event\node_modules\@parcel\optimizer-svgo\src133832425499008940 1
@@ -10881,6 +10906,7 @@
 71C:\Users\Cris\Desktop\Event\node_modules\@parcel\node-resolver-core\lib133832425616445669 1
 80C:\Users\Cris\Desktop\Event\node_modules\@parcel\node-resolver-core\package.json133832425724706070 0
 85C:\Users\Cris\Desktop\Event\node_modules\@parcel\node-resolver-core\node_modules\.bin133832426402915013 1
+120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\favicon.ecafa0db.ico133832434294855249 0
 96C:\Users\Cris\Desktop\Event\node_modules\@parcel\node-resolver-core\node_modules\semver\index.js133832425900609917 0
 96C:\Users\Cris\Desktop\Event\node_modules\@parcel\node-resolver-core\node_modules\semver\internal133832425996755461 1
 101C:\Users\Cris\Desktop\Event\node_modules\@parcel\node-resolver-core\node_modules\semver\ranges\gtr.js133832425887614842 0
@@ -10943,7 +10969,7 @@
 59C:\Users\Cris\Desktop\Event\node_modules\@parcel\fs\LICENSE133832425418072373 0
 55C:\Users\Cris\Desktop\Event\node_modules\@parcel\fs\src133832425819218993 1
 74C:\Users\Cris\Desktop\Event\node_modules\@parcel\fs\test\OverlayFS.test.js133832425844564308 0
-129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes\origin133832430957190837 1
+129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes\origin133832434289738711 1
 63C:\Users\Cris\Desktop\Event\node_modules\@parcel\fs\src\find.js133832425555072734 0
 65C:\Users\Cris\Desktop\Event\node_modules\@parcel\fs\src\NodeFS.js133832425790038433 0
 66C:\Users\Cris\Desktop\Event\node_modules\@parcel\fs\lib\browser.js133832425494840745 0
@@ -10998,7 +11024,7 @@
 77C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\serializer.test.js133832426117264766 0
 84C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\SymbolPropagation.test.js133832426120496308 0
 80C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\TargetRequest.test.js133832426125252162 0
-117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\logo.90ee9b9f.svg133832430922000706 0
+117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\logo.90ee9b9f.svg133832434294764833 0
 89C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\requests\ConfigRequest.test.js133832426045967389 0
 77C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\fixtures\bundle.js133832426004784161 0
 82C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\fixtures\common-targets133832426154596092 1
@@ -11059,7 +11085,7 @@
 84C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\fixtures\config\.parcelrc133832425787490811 0
 84C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\fixtures\config\subfolder133832425836924477 1
 102C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\test\fixtures\common-targets-ignore\package.json133832426154448287 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\0f\26d63bb0068e245fd8f93609e62adf3f51635c133832430922861504 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\0f\26d63bb0068e245fd8f93609e62adf3f51635c133832434295323984 0
 74C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\src\applyRuntimes.js133832425941966160 0
 71C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\src\assetUtils.js133832425991879624 0
 71C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\src\buildCache.js133832425996651361 0
@@ -11139,6 +11165,7 @@
 37C:\Users\Cris\Desktop\Event\.cache\ff133832412609960052 1
 64C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\lib\public133832426122901723 1
 75C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\lib\ReporterRunner.js133832426111968754 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\14\f100acc7ee8a763518e8e0ce3540d1c384614f133832434284218064 0
 66C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\lib\requests133832426152886661 1
 77C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\lib\summarizeRequest.js133832426118779772 0
 78C:\Users\Cris\Desktop\Event\node_modules\@parcel\core\lib\SymbolPropagation.js133832426120172733 0
@@ -11302,6 +11329,7 @@
 91C:\Users\Cris\Desktop\Event\node_modules\@isaacs\cliui\node_modules\ansi-regex\package.json133832427013124126 0
 70C:\Users\Cris\Desktop\Event\node_modules\@isaacs\cliui\build\index.cjs133832427004804280 0
 72C:\Users\Cris\Desktop\Event\node_modules\@isaacs\cliui\build\index.d.cts133832427011089584 0
+117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\logo.0a6f75e4.svg133832434294764833 0
 58C:\Users\Cris\Desktop\Event\node_modules\@babel\code-frame133832425602911832 1
 75C:\Users\Cris\Desktop\Event\node_modules\@babel\helper-validator-identifier133832425768741830 1
 79C:\Users\Cris\Desktop\Event\node_modules\@babel\helper-validator-identifier\lib133832425730142773 1
@@ -11317,23 +11345,25 @@
 75C:\Users\Cris\Desktop\Event\node_modules\@babel\code-frame\lib\index.js.map133832425564256961 0
 56C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages133832430891899276 1
 113C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.parcel-cache133832430906566801 1
-117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\Event.e31bb0bc.js133832430922000706 0
-121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\Event.e31bb0bc.js.map133832430922000706 0
-120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\favicon.1ed07b5c.ico133832430922000706 0
-117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.128387c4.js133832430922000706 0
-121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.128387c4.js.map133832430922000706 0
-118C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.1fb38efc.css133832430922000706 0
-108C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.js133832430922000706 0
-112C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.js.map133832430922000706 0
-121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\location.68e4bdf6.svg133832430922000706 0
-121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\location.90ee9b9f.svg133832430922000706 0
-123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\pic-mobile.0a71861a.png133832430922000706 0
-123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\pic-mobile.d6448898.png133832430922313226 0
-122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\rectangle.49237324.svg133832430922000706 0
-122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\rectangle.90ee9b9f.svg133832430922000706 0
-119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\search.90ee9b9f.svg133832430922000706 0
-119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.css133832430922000706 0
-122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.js.map133832430922000706 0
+117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\Event.e31bb0bc.js133832434294724868 0
+121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\Event.e31bb0bc.js.map133832434294724868 0
+120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\favicon.1ed07b5c.ico133832434294855249 0
+117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.128387c4.js133832434294734871 0
+121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.128387c4.js.map133832434294734871 0
+118C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.1fb38efc.css133832434294744851 0
+108C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.js133832434294754846 0
+112C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\index.js.map133832434294754846 0
+121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\location.68e4bdf6.svg133832434294754846 0
+121C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\location.90ee9b9f.svg133832434294764833 0
+123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\pic-mobile.0a71861a.png133832434294764833 0
+123C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\pic-mobile.d6448898.png133832434294855249 0
+122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\rectangle.49237324.svg133832434294774830 0
+122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\rectangle.90ee9b9f.svg133832434294774830 0
+122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\rectangle.b4135d02.svg133832434294774830 0
+119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\search.36f4dae5.svg133832434294774830 0
+119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\search.90ee9b9f.svg133832434294774830 0
+119C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.css133832434294784819 0
+122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\styles.8986bff4.js.map133832434294784819 0
 130C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.parcel-cache\07d2172a591adc5b133832430906410560 0
 142C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.parcel-cache\4cad2e1131c42f7b-BundleGraph133832430906410560 0
 141C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.parcel-cache\9a0d07555444f4da-AssetGraph133832430906410560 0
@@ -11341,38 +11371,60 @@
 143C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.parcel-cache\snapshot-3637a2b4112fd1a3.txt133832430906566801 0
 120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\heads\main133832430906098071 0
 116C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\description133832430891993337 0
-115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\FETCH_HEAD133832430914594120 0
-109C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\HEAD133832430919621715 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\FETCH_HEAD133832434289778662 0
+109C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\HEAD133832434292212957 0
 110C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\hooks133832430891993337 1
 109C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\info133832430891993337 1
-112C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects133832430932803959 1
+112C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects133832434305357009 1
+114C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\ORIG_HEAD133832434293306636 0
 116C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\packed-refs133832430905941845 0
-115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\heads133832430932394514 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\heads133832434304812401 1
 56C:\Users\Cris\Desktop\Event\node_modules\.bin\semver.ps1133832426404370996 0
 117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes133832430905941845 1
-124C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes\origin133832430957210814 1
-133C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes\origin\gh-pages133832430957180846 0
+124C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes\origin133832434324441432 1
+133C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes\origin\gh-pages133832434324441432 0
 129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes\origin\HEAD133832430906098071 0
+129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\remotes\origin\main133832434289728732 0
 136C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\hooks\fsmonitor-watchman.sample133832430891993337 0
-124C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\heads\gh-pages133832430932394514 0
+124C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\refs\heads\gh-pages133832434304812401 0
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\0f133832430923114509 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\33133832434298292647 1
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\34133832430928132784 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\45133832434300281375 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\4f133832434281426457 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\50133832434297667945 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\57133832434289104310 1
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\5f133832430924370847 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\65133832434281821176 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\7c133832434283383907 1
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b8133832430927384480 1
-115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\bf133832430926379845 1
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\cc\f01883ba93a45debe582c8303618b9cb8cdf05133832434295792721 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\bf133832434304812401 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c1133832434300750108 1
 115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c9133832430924024144 1
+68C:\Users\Cris\Desktop\Event\node_modules\.bin\update-browserslist-db133832426404370996 0
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\f1133832434284168110 1
+115C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\f3133832434296730241 1
 117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\pack133832430906254325 1
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\f9\651251b290e195fd0a4ff97354ef3d68aef5d3133832430928132784 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\de\ec4e643e267684259bfc39251aff12d51b9675133832430927540721 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c0\73019653e30ea05bbfe1b4dcde3982fc31ff0e133832430924685092 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b4\8c61839c9a7fd6b628b40faa9b6d635aecffeb133832430927540721 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\34\9524c70100e9f9ade1845d4da5883dc1c1a593133832430927882491 0
-154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\24\aac86d0be50f3bd38d8987c996cd0768f36beb133832430923270757 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\f9\651251b290e195fd0a4ff97354ef3d68aef5d3133832434300906339 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\de\ec4e643e267684259bfc39251aff12d51b9675133832434300750108 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c1\c198a471978943d95d831a16544699f230488d133832434300437624 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\c0\73019653e30ea05bbfe1b4dcde3982fc31ff0e133832434296261485 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\bf\70462d4621d440ad281226c723f85126c16afb133832434304343660 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\b4\8c61839c9a7fd6b628b40faa9b6d635aecffeb133832434300906339 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\ac\cca85863af2a200daf0918759ebe0aabd8fc78133832434296730241 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\90\bac9ed75fda0c3c960eb5a4c30b46865305fef133832434287754202 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\57\596e87082f426e0bf1a70e4d7d8bd8febbd5d7133832434288535434 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\50\20069e2747312d7a96714dbdfe7106f953c2d5133832434297199229 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\34\9524c70100e9f9ade1845d4da5883dc1c1a593133832434300906339 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\33\ec2b0789d57f05e180155e9fac00ae0c6ff227133832434297823934 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\24\aac86d0be50f3bd38d8987c996cd0768f36beb133832434295323984 0
+154C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\objects\19\ba448ba68f8398c503711b00fa6fa0cf5c4c78133832434286348007 0
 120C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\heads133832430932394514 1
 122C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes133832430906098071 1
-138C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes\origin\gh-pages133832430957200820 0
+138C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes\origin\gh-pages133832434324441432 0
 134C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\remotes\origin\HEAD133832430906098071 0
-129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\heads\gh-pages133832430932394514 0
+129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\logs\refs\heads\gh-pages133832434304812401 0
 117C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\info\exclude133832430891993337 0
 128C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\hooks\commit-msg.sample133832430891993337 0
 129C:\Users\Cris\Desktop\Event\node_modules\.cache\gh-pages\https!github.com!CristinaSuciu26!Event.git\.git\hooks\pre-receive.sample133832430891993337 0
@@ -11414,7 +11466,6 @@
 56C:\Users\Cris\Desktop\Event\node_modules\.bin\terser.ps1133832427098168555 0
 51C:\Users\Cris\Desktop\Event\node_modules\.bin\uncss133832426404370996 0
 55C:\Users\Cris\Desktop\Event\node_modules\.bin\uncss.ps1133832426404370996 0
-68C:\Users\Cris\Desktop\Event\node_modules\.bin\update-browserslist-db133832426404370996 0
 72C:\Users\Cris\Desktop\Event\node_modules\.bin\update-browserslist-db.ps1133832426404370996 0
 37C:\Users\Cris\Desktop\Event\js\api.js133831599642627941 0
 44C:\Users\Cris\Desktop\Event\js\pagination.js133831599642657909 0
