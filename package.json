@@ -1,0 +1,21 @@
+{
+  "name": "event",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://CristinaSucicu26.github.io/Event",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
+  }
+}
