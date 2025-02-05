@@ -36,7 +36,7 @@
 80C:\Users\Cris\Desktop\Event\node_modules\json-schema-traverse\spec\.eslintrc.yml133832425709797203 0
 69C:\Users\Cris\Desktop\Event\node_modules\@parcel\logger\src\Logger.js133832425502363922 0
 75C:\Users\Cris\Desktop\Event\node_modules\svgo\plugins\convertShapeToPath.js133832427076607783 0
-40C:\Users\Cris\Desktop\Event\package.json133832427585395060 0
+40C:\Users\Cris\Desktop\Event\package.json133832430680835207 0
 88C:\Users\Cris\Desktop\Event\node_modules\wrap-ansi\node_modules\ansi-styles\package.json133832427013124126 0
 37C:\Users\Cris\Desktop\Event\.cache\1e133832412606411525 1
 61C:\Users\Cris\Desktop\Event\node_modules\lodash\_isKeyable.js133832426158022410 0

@@ -2,9 +2,10 @@
   "name": "event",
   "version": "1.0.0",
   "scripts": {
+    "start":"parcel index.html",
     "dev": "parcel index.html",
     "build": "parcel build index.html",
-    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist",
+    "deploy": "npm run build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://CristinaSucicu26.github.io/Event",
