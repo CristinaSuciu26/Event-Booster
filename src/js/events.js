@@ -1,5 +1,5 @@
-import iconLocation from "../../public/icons/location.svg";
-import iconRectangle from "../../public/icons/rectangle.svg";
+import iconLocation from "../icons/location.svg";
+import iconRectangle from "../icons/rectangle.svg";
 
 export const displayEvents = (events) => {
   const eventsContainer = document.getElementById("event-container");
