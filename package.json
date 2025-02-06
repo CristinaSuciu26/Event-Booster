@@ -4,11 +4,11 @@
   "scripts": {
     "start": "parcel src/index.html",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /Event/",
+    "build": "parcel build src/index.html --public-url /Event-Booster/",
     "deploy": "npm run build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://CristinaSuciu26.github.io/Event",
+  "homepage": "https://CristinaSuciu26.github.io/Event-Booster",
   "author": "",
   "license": "ISC",
   "description": "",
@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CristinaSuciu26/Event.git"
+    "url": "git+https://github.com/CristinaSuciu26/Event-Booster.git"
   },
   "bugs": {
-  "url": "https://github.com/CristinaSuciu26/Event/issues"
+  "url": "https://github.com/CristinaSuciu26/Event-Booster/issues"
 },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
