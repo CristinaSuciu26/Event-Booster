@@ -1,0 +1,12 @@
+<svg width="106" height="90" viewBox="0 0 106 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<symbol id="rectangle">
+  <path d="M0.5 49.9999C0.5 22.6618 22.6619 0.499939 50 0.499939H101.5V44.9999C101.5 72.338 79.3381 94.4999 52 94.4999H0.5V49.9999Z" stroke="#DC56C5" fill="none" stroke-opacity="0.3" stroke-width="2"></path>
+
+</symbol>
+<symbol id="rectangle-desktop">
+  <path d="M0.5 50C0.5 22.6619 22.6619 0.5 50 0.5H226.5V162C226.5 189.338 204.338 211.5 177 211.5H0.5V50Z" stroke="#DC56C5" fill="none" stroke-opacity="0.3" stroke-width="2"></path>
+
+</symbol>
+    
+</svg>
