@@ -41,16 +41,19 @@ header {
 .logo-container {
   backdrop-filter: blur(5px);
   background: #363636cc;
-  border-radius: 100% 0% / 0% 0% 100% 100%;
-  width: 137px;
-  height: 117px;
+  border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%;
+  width: 106px;
+  height: 92px;
   transition: transform .5s ease-in-out, width .5s ease-in-out, height .5s ease-in-out;
   transform: scale(1);
 }
 
 .logo {
-  margin-top: -7px;
-  margin-left: -20px;
+  background-image: url("logo.e285f770.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -31px;
+  margin-left: -28px;
   transition: transform .5s ease-in-out, margin .5s ease-in-out;
 }
 
@@ -416,14 +419,14 @@ input[type="text"], input::placeholder {
   }
 
   .logo-container {
-    width: 166px;
-    height: 158px;
+    width: 136px;
+    height: 138px;
     transform: scale(1.1);
   }
 
   .logo {
-    margin-top: 14px;
-    margin-left: -12px;
+    margin-top: -20px;
+    margin-left: -20px;
   }
 
   .event-container {
