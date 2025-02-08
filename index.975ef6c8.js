@@ -757,10 +757,8 @@ const displayEvents = (events)=>{
         eventsCard.classList.add("event-container");
         eventsCard.innerHTML = `
       <svg class="rectangle-icon">
-        <use href="../icons/sprite.svg#rectangle"></use>
       </svg>  
       <svg class="rectangle-icon desktop">
-        <use href="../icons/sprite.svg#rectangle-desktop"></use>
       </svg>
       <img
         src="${event.images[0].url}"

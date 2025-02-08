@@ -52,7 +52,7 @@ header {
   background-image: url("logo.e285f770.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: -31px;
+  margin-top: -19px;
   margin-left: -28px;
   transition: transform .5s ease-in-out, margin .5s ease-in-out;
 }
@@ -224,15 +224,14 @@ input[type="text"], input::placeholder {
 }
 
 .rectangle-icon {
+  background-image: url("rectangle-mobile.a05cb0e7.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
   width: 102px;
   height: 95px;
   position: absolute;
   top: 15px;
   left: 36px;
-}
-
-.desktop {
-  display: none;
 }
 
 .img-event {
@@ -425,7 +424,7 @@ input[type="text"], input::placeholder {
   }
 
   .logo {
-    margin-top: -20px;
+    margin-top: 5px;
     margin-left: -20px;
   }
 
@@ -449,6 +448,9 @@ input[type="text"], input::placeholder {
   }
 
   .desktop {
+    background-image: url("rectangle-desktop.90949f4b.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 227px;
     height: 220px;
     display: block;
