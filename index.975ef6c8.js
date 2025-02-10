@@ -599,6 +599,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var _apiJs = require("./js/api.js");
 var _loaderJs = require("./js/loader.js");
 var _paginationJs = require("./js/pagination.js");
+var _searchingJs = require("./js/searching.js");
 var _selectJs = require("./js/select.js");
 document.addEventListener("DOMContentLoaded", async ()=>{
     try {
@@ -606,6 +607,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
         const response = await (0, _apiJs.fetchEvents)();
         const events = response._embedded.events;
         console.log("ev", events);
+        (0, _searchingJs.searchEvents)(events);
         (0, _paginationJs.pagination)(events);
         (0, _selectJs.selectTimezone)(events);
     } catch (error) {
@@ -613,7 +615,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     }
 });
 
-},{"./js/api.js":"9u7qN","./js/loader.js":"aAovl","./js/pagination.js":"9j1Dd","./js/select.js":"8pMAy"}],"9u7qN":[function(require,module,exports,__globalThis) {
+},{"./js/api.js":"9u7qN","./js/loader.js":"aAovl","./js/pagination.js":"9j1Dd","./js/select.js":"8pMAy","./js/searching.js":"knPpg"}],"9u7qN":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "fetchEvents", ()=>fetchEvents);
@@ -804,6 +806,27 @@ const selectTimezone = (events)=>{
     choices = new Choices(countrySelect);
 };
 
-},{"./pagination.js":"9j1Dd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"./pagination.js":"9j1Dd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"knPpg":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "searchEvents", ()=>searchEvents);
+var _events = require("./events");
+var _paginationJs = require("./pagination.js");
+const searchEvents = (events)=>{
+    const inputContainer = document.querySelector(".input-container");
+    inputContainer.innerHTML = `
+      <input type="text" placeholder="Start searching" id="search-input" />
+      <div class="search-icon"></div>
+    `;
+    const searchInput = document.getElementById("search-input");
+    searchInput.addEventListener("input", (event)=>{
+        const searchText = event.target.value.toLowerCase();
+        const filteredEvents = events.filter((event)=>event.name.toLowerCase().includes(searchText));
+        (0, _events.displayEvents)(filteredEvents);
+        (0, _paginationJs.pagination)(filteredEvents);
+    });
+};
+
+},{"./events":"9JCK2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./pagination.js":"9j1Dd"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
