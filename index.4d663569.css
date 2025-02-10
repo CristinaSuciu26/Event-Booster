@@ -218,6 +218,10 @@ input[type="text"], input::placeholder {
   top: -94px;
 }
 
+.newContainer {
+  color: #fff;
+}
+
 .event-container:hover {
   transform: translateY(-5px);
 }
