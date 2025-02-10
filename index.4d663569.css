@@ -52,8 +52,9 @@ header {
   background-image: url("logo.e285f770.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  margin-top: -19px;
-  margin-left: -28px;
+  width: 72px;
+  margin-top: 16px;
+  margin-left: 8px;
   transition: transform .5s ease-in-out, margin .5s ease-in-out;
 }
 
@@ -91,16 +92,14 @@ input[type="text"], input::placeholder {
 }
 
 .search-icon {
-  stroke: #939393;
-  fill: #939393;
   background-image: url("search.b5df67a9.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 12px;
-  height: 12px;
+  width: 19px;
+  height: 21px;
   position: absolute;
-  top: 14px;
-  right: 28px;
+  top: 13px;
+  right: 13px;
 }
 
 .input-container {
@@ -223,6 +222,12 @@ input[type="text"], input::placeholder {
   transform: translateY(-5px);
 }
 
+.image-wrapper {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
 .rectangle-icon {
   background-image: url("rectangle-mobile.a05cb0e7.svg");
   background-repeat: no-repeat;
@@ -230,18 +235,19 @@ input[type="text"], input::placeholder {
   width: 102px;
   height: 95px;
   position: absolute;
-  top: 15px;
-  left: 36px;
+  top: -7px;
+  left: 27px;
 }
 
 .img-event {
-  object-fit: cover;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
   width: 120px;
   height: 120px;
-  margin-top: 30px;
-  position: relative;
+  position: inherit;
+  object-fit: cover;
+  z-index: 2;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: block;
 }
 
 .info-container {
@@ -278,7 +284,6 @@ input[type="text"], input::placeholder {
   background-image: url("location.29c138c9.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 5px;
   width: 20px;
   height: 20px;
   margin-right: 5px;
@@ -369,10 +374,6 @@ input[type="text"], input::placeholder {
     font-size: 16px;
   }
 
-  .logo svg {
-    width: 50px;
-  }
-
   .event-container {
     box-sizing: border-box;
     flex: 0 calc(29% - 10px);
@@ -400,8 +401,8 @@ input[type="text"], input::placeholder {
   }
 
   .rectangle-icon {
-    top: 36px;
-    left: 82px;
+    top: -9px;
+    left: 52px;
   }
 
   .copyright-container {
@@ -424,8 +425,9 @@ input[type="text"], input::placeholder {
   }
 
   .logo {
-    margin-top: 5px;
-    margin-left: -20px;
+    width: 100px;
+    margin-top: 35px;
+    margin-left: 10px;
   }
 
   .event-container {
@@ -454,8 +456,8 @@ input[type="text"], input::placeholder {
     width: 227px;
     height: 220px;
     display: block;
-    top: 27px;
-    left: 101px;
+    top: -10px;
+    left: 55px;
   }
 
   .event-date, .event-title, .event-location {

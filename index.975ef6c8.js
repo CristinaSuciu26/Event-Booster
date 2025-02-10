@@ -756,22 +756,21 @@ const displayEvents = (events)=>{
         const eventsCard = document.createElement("div");
         eventsCard.classList.add("event-container");
         eventsCard.innerHTML = `
+    <div class="image-wrapper">
       <svg class="rectangle-icon">
       </svg>  
-      <svg class="rectangle-icon desktop">
-      </svg>
+      <svg class="rectangle-icon desktop"></svg>
       <img
         src="${event.images[0].url}"
         alt="event picture"
         class="img-event"
       />
+      </div>
       <div class="info-container">
         <p class="event-title">${event.name}</p>
         <p class="event-date">${event.dates.start.localDate}</p>
         <div class="location-container">
-          <svg class="location-icon">
-           
-          </svg>
+          <svg class="location-icon"></svg>
           <p class="event-location">${event._embedded.venues[0].name}</p>
         </div>
       </div>`;
