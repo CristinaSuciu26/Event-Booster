@@ -598,6 +598,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 },{}],"8lqZg":[function(require,module,exports,__globalThis) {
 var _apiJs = require("./js/api.js");
 var _loaderJs = require("./js/loader.js");
+var _modalJs = require("./js/modal.js");
 var _paginationJs = require("./js/pagination.js");
 var _searchingJs = require("./js/searching.js");
 var _selectJs = require("./js/select.js");
@@ -608,6 +609,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
         const events = response._embedded.events;
         console.log("ev", events);
         (0, _searchingJs.searchEvents)(events);
+        (0, _modalJs.modal)(events);
         (0, _paginationJs.pagination)(events);
         (0, _selectJs.selectTimezone)(events);
     } catch (error) {
@@ -615,7 +617,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     }
 });
 
-},{"./js/api.js":"9u7qN","./js/loader.js":"aAovl","./js/pagination.js":"9j1Dd","./js/select.js":"8pMAy","./js/searching.js":"knPpg"}],"9u7qN":[function(require,module,exports,__globalThis) {
+},{"./js/api.js":"9u7qN","./js/loader.js":"aAovl","./js/pagination.js":"9j1Dd","./js/select.js":"8pMAy","./js/searching.js":"knPpg","./js/modal.js":"aHHgN"}],"9u7qN":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "fetchEvents", ()=>fetchEvents);
@@ -757,12 +759,19 @@ const displayEvents = (events)=>{
     events.forEach((event)=>{
         const eventsCard = document.createElement("div");
         eventsCard.classList.add("event-container");
+        eventsCard.dataset.imageUrl = event.images[0].url;
+        eventsCard.dataset.title = event.name;
+        eventsCard.dataset.description = event.description || "No description available";
         eventsCard.innerHTML = `
-    <div class="image-wrapper">
+  
+    <div class="image-wrapper" >
+     
       <svg class="rectangle-icon">
       </svg>  
       <svg class="rectangle-icon desktop"></svg>
+   
       <img
+
         src="${event.images[0].url}"
         alt="event picture"
         class="img-event"
@@ -840,6 +849,41 @@ const searchEvents = (events)=>{
     });
 };
 
-},{"./events":"9JCK2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./pagination.js":"9j1Dd"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"./events":"9JCK2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./pagination.js":"9j1Dd"}],"aHHgN":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "modal", ()=>modal);
+const modal = (events)=>{
+    const modal = document.getElementById("modal");
+    const closeBtn = document.getElementById("close-modal");
+    const modalContent = document.getElementById("modal-content");
+    // Create a separate container for the event details just once
+    const eventDetailsContainer = document.createElement("div");
+    modalContent.appendChild(eventDetailsContainer); // Append it to the modal content initially
+    document.addEventListener("click", (e)=>{
+        const eventContainer = e.target.closest(".event-container");
+        if (eventContainer) {
+            modal.style.display = "block"; // Show the modal
+            // Accessing data attributes directly
+            const imageUrl = eventContainer.dataset.imageUrl;
+            const title = eventContainer.dataset.title;
+            const description = eventContainer.dataset.description;
+            // Clear previous event details while keeping the close button
+            eventDetailsContainer.innerHTML = ""; // Clear existing event details
+            // Set new event details
+            eventDetailsContainer.innerHTML = `
+          <img src="${imageUrl}" alt="${title}" class="img-event" />
+          <h2>${title}</h2>
+          <p>${description}</p>
+        `;
+        }
+        // Close the modal when the close button is clicked
+        if (e.target === closeBtn) modal.style.display = "none";
+        // Close the modal when clicking outside of it
+        if (e.target === modal) modal.style.display = "none";
+    });
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
