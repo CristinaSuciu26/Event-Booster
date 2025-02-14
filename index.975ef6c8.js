@@ -759,9 +759,16 @@ const displayEvents = (events)=>{
     events.forEach((event)=>{
         const eventsCard = document.createElement("div");
         eventsCard.classList.add("event-container");
-        eventsCard.dataset.imageUrl = event.images[0].url;
+        eventsCard.dataset.imageUrl = event.images[0]?.url || "";
         eventsCard.dataset.title = event.name;
-        eventsCard.dataset.description = event.description || "No description available";
+        eventsCard.dataset.description = event.promoter?.description || "No description available";
+        eventsCard.dataset.date = event.dates.start.localDate;
+        eventsCard.dataset.time = event.dates.start.localTime;
+        eventsCard.dataset.timezone = event.dates.timezone;
+        eventsCard.dataset.location = event._embedded.venues[0]?.name || "Unknown Location";
+        eventsCard.dataset.name = event.name;
+        eventsCard.dataset.maxprice = event.priceRanges?.[0]?.max || "Price not available";
+        eventsCard.dataset.minprice = event.priceRanges?.[0]?.min || "Price not available";
         eventsCard.innerHTML = `
   
     <div class="image-wrapper" >
@@ -857,25 +864,53 @@ const modal = (events)=>{
     const modal = document.getElementById("modal");
     const closeBtn = document.getElementById("close-modal");
     const modalContent = document.getElementById("modal-content");
-    // Create a separate container for the event details just once
     const eventDetailsContainer = document.createElement("div");
-    modalContent.appendChild(eventDetailsContainer); // Append it to the modal content initially
+    modalContent.appendChild(eventDetailsContainer);
     document.addEventListener("click", (e)=>{
         const eventContainer = e.target.closest(".event-container");
         if (eventContainer) {
-            modal.style.display = "block"; // Show the modal
+            modal.style.display = "block";
             // Accessing data attributes directly
             const imageUrl = eventContainer.dataset.imageUrl;
             const title = eventContainer.dataset.title;
             const description = eventContainer.dataset.description;
-            // Clear previous event details while keeping the close button
-            eventDetailsContainer.innerHTML = ""; // Clear existing event details
+            const localDate = eventContainer.dataset.date;
+            const localTime = eventContainer.dataset.time;
+            const timezone = eventContainer.dataset.timezone;
+            const location = eventContainer.dataset.location;
+            const name = eventContainer.dataset.name;
+            const maxPrice = eventContainer.dataset.maxprice;
+            const minPrice = eventContainer.dataset.minprice;
+            eventDetailsContainer.innerHTML = "";
             // Set new event details
             eventDetailsContainer.innerHTML = `
-          <img src="${imageUrl}" alt="${title}" class="img-event" />
-          <h2>${title}</h2>
-          <p>${description}</p>
-        `;
+
+      <div class="modal-wrapper">
+        <img class="img-modal" src="${imageUrl}" alt="${title}" class="img-event" />
+
+        <h2 class="modal-headings">INFO</h2>
+        <p class="event-info">${title}</p>
+        <p class="event-info">${description}</p>
+
+        <h2 class="modal-headings">WHEN</h2>
+        <p class="event-info">${localDate} at ${localTime} (${timezone})</p>
+
+        <h2 class="modal-headings">WHERE</h2>
+        <p class="event-info">${location} (${timezone})</p>
+
+        <h2 class="modal-headings">WHO</h2>
+        <p class="event-info">${name} </p>
+
+          <h2 class="modal-headings">PRICES</h2>
+          <p class="event-info"> VIP ${maxPrice} </p>
+          <button>BUY TICKETS</button>
+           <p class="event-info"> Standard ${minPrice} </p>
+              <button>BUY TICKETS</button>
+
+
+                 <button>MORE FROM THIS AUTHOR</button>
+                 </div>
+      `;
         }
         // Close the modal when the close button is clicked
         if (e.target === closeBtn) modal.style.display = "none";
