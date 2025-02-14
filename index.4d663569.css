@@ -378,7 +378,7 @@ input[type="text"], input::placeholder {
   width: 95vw;
   max-width: 600px;
   height: 90vh;
-  max-height: 744px;
+  max-height: 909px;
   margin: 65px auto 0;
   display: flex;
   position: relative;
@@ -393,6 +393,7 @@ input[type="text"], input::placeholder {
 .modal-headings {
   color: #dc56c5;
   padding: 10px;
+  font-family: Montserrat, serif;
   font-size: 20px;
   font-weight: 600;
 }
@@ -406,9 +407,49 @@ input[type="text"], input::placeholder {
 
 .event-info {
   text-align: center;
+  font-family: Montserrat, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
+}
+
+.price {
+  width: 105px;
+}
+
+.barcode-icon {
+  background-image: url("barcode.74195ec2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 14px;
+  height: 14px;
+}
+
+.price-wrapper {
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.buy-tickets-btn {
+  color: #fff;
+  background-color: #4c00fe;
+  border: none;
+  border-radius: 5px;
+  width: 145px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.more-btn {
+  color: #4c00fe;
+  background-color: #fff;
+  border-color: #4c00fe;
+  border-radius: 5px;
+  width: 224px;
+  height: 40px;
+  margin-top: 10px;
 }
 
 .close-modal {
@@ -421,6 +462,12 @@ input[type="text"], input::placeholder {
   position: absolute;
   top: 14px;
   right: 14px;
+}
+
+.price-details {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (width >= 468px) {

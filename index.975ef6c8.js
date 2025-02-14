@@ -901,14 +901,20 @@ const modal = (events)=>{
         <h2 class="modal-headings">WHO</h2>
         <p class="event-info">${name} </p>
 
+   <div class="price-details">
           <h2 class="modal-headings">PRICES</h2>
-          <p class="event-info"> VIP ${maxPrice} </p>
-          <button>BUY TICKETS</button>
-           <p class="event-info"> Standard ${minPrice} </p>
-              <button>BUY TICKETS</button>
-
-
-                 <button>MORE FROM THIS AUTHOR</button>
+      <div class="price-wrapper">
+           <svg class="barcode-icon"></svg>
+          <p class="event-info price"> VIP ${maxPrice} </p>
+      </div>
+          <button class="buy-tickets-btn">BUY TICKETS</button>
+      <div class="price-wrapper">
+          <svg class="barcode-icon"></svg>
+           <p class="event-info price"> Standard ${minPrice} </p>
+      </div>
+          <button class="buy-tickets-btn">BUY TICKETS</button>
+</div>
+<button class="more-btn">MORE FROM THIS AUTHOR</button>
                  </div>
       `;
         }
