@@ -617,7 +617,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     }
 });
 
-},{"./js/api.js":"9u7qN","./js/loader.js":"aAovl","./js/pagination.js":"9j1Dd","./js/select.js":"8pMAy","./js/searching.js":"knPpg","./js/modal.js":"aHHgN"}],"9u7qN":[function(require,module,exports,__globalThis) {
+},{"./js/api.js":"9u7qN","./js/loader.js":"aAovl","./js/modal.js":"aHHgN","./js/pagination.js":"9j1Dd","./js/searching.js":"knPpg","./js/select.js":"8pMAy"}],"9u7qN":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "fetchEvents", ()=>fetchEvents);
@@ -678,6 +678,98 @@ const loader = ()=>{
             loader.style.display = "none";
             content.style.display = "block";
         }, 1000);
+    });
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aHHgN":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "modal", ()=>modal);
+const modal = (events)=>{
+    const modal = document.getElementById("modal");
+    const closeBtn = document.getElementById("close-modal");
+    const modalContent = document.getElementById("modal-content");
+    const eventDetailsContainer = document.createElement("div");
+    modalContent.appendChild(eventDetailsContainer);
+    document.addEventListener("click", (e)=>{
+        const eventContainer = e.target.closest(".event-container");
+        if (eventContainer) {
+            modal.style.display = "block";
+            // Accessing data attributes directly
+            const imageUrl = eventContainer.dataset.imageUrl;
+            const title = eventContainer.dataset.title;
+            const description = eventContainer.dataset.description;
+            const localDate = eventContainer.dataset.date;
+            const localTime = eventContainer.dataset.time;
+            const timezone = eventContainer.dataset.timezone;
+            const location = eventContainer.dataset.location;
+            const name = eventContainer.dataset.name;
+            const maxPrice = eventContainer.dataset.maxprice;
+            const minPrice = eventContainer.dataset.minprice;
+            eventDetailsContainer.innerHTML = "";
+            // Set new event details
+            eventDetailsContainer.innerHTML = `
+
+      <div class="modal-wrapper">
+        <img class="img-modal" src="${imageUrl}" alt="${title}" />
+    
+        <div class="modal-content-wrapper">
+          <div class="header-modal">
+            <img class="large-img" src="${imageUrl}" alt="${title}" />
+            <div class="event-details"> 
+              <h2 class="modal-headings">INFO</h2>
+              <p class="event-info tablet">${title}</p>
+              <p class="event-info tablet">${description}</p>
+    
+              <h2 class="modal-headings">WHEN</h2>
+              <p class="event-info tablet">${localDate} at ${localTime} (${timezone})</p>
+            </div>
+          </div>
+    
+          <div class="container">
+            <div class="info-section">
+              <h2 class="modal-headings">WHERE</h2>
+              <p class="event-info">${location} (${timezone})</p>
+    
+              <h2 class="modal-headings">WHO</h2>
+              <p class="event-info">${name}</p>
+            </div>
+            <div class="price-details">
+              <h2 class="modal-headings">PRICES</h2>
+              <div class="price-section"></div>
+            </div>
+          </div>
+    
+
+          <div  class="buttons-wrapper">
+          <div>
+            <div class="price-wrapper">
+              <svg class="barcode-icon"></svg>
+              <p class="event-info price">VIP ${maxPrice}</p>
+            </div>
+            <button class="buy-tickets-btn">BUY TICKETS</button>
+          </div>
+    
+          <div>
+            <div class="price-wrapper">
+              <svg class="barcode-icon"></svg>
+              <p class="event-info price">Standard ${minPrice}</p>
+            </div>
+            <button class="buy-tickets-btn">BUY TICKETS</button>
+          </div>
+    </div>
+          <div class="more-btn-wrapper">
+            <button class="more-btn">MORE FROM THIS AUTHOR</button>
+          </div>
+    
+        </div>
+      </div>
+    `;
+        }
+        // Close the modal when the close button is clicked
+        if (e.target === closeBtn) modal.style.display = "none";
+        // Close the modal when clicking outside of it
+        if (e.target === modal) modal.style.display = "none";
     });
 };
 
@@ -796,33 +888,7 @@ const displayEvents = (events)=>{
     });
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8pMAy":[function(require,module,exports,__globalThis) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "selectTimezone", ()=>selectTimezone);
-var _paginationJs = require("./pagination.js");
-const selectTimezone = (events)=>{
-    const countrySelect = document.getElementById("choices");
-    let choices = new Choices(countrySelect);
-    const uniqueTimezones = events.filter((event)=>event.dates.timezone);
-    uniqueTimezones.forEach((event)=>{
-        const option = document.createElement("option");
-        option.value = event.dates.timezone;
-        option.textContent = event.dates.timezone;
-        countrySelect.appendChild(option);
-    });
-    countrySelect.addEventListener("change", (event)=>{
-        const selectedTimezone = event.target.value;
-        if (selectedTimezone) {
-            const filtered = events.filter((event)=>event.dates.timezone === selectedTimezone);
-            (0, _paginationJs.applyFilter)(filtered);
-        } else (0, _paginationJs.pagination)(events);
-    });
-    choices.destroy();
-    choices = new Choices(countrySelect);
-};
-
-},{"./pagination.js":"9j1Dd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"knPpg":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"knPpg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "searchEvents", ()=>searchEvents);
@@ -856,98 +922,32 @@ const searchEvents = (events)=>{
     });
 };
 
-},{"./events":"9JCK2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./pagination.js":"9j1Dd"}],"aHHgN":[function(require,module,exports,__globalThis) {
+},{"./events":"9JCK2","./pagination.js":"9j1Dd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8pMAy":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "modal", ()=>modal);
-const modal = (events)=>{
-    const modal = document.getElementById("modal");
-    const closeBtn = document.getElementById("close-modal");
-    const modalContent = document.getElementById("modal-content");
-    const eventDetailsContainer = document.createElement("div");
-    modalContent.appendChild(eventDetailsContainer);
-    document.addEventListener("click", (e)=>{
-        const eventContainer = e.target.closest(".event-container");
-        if (eventContainer) {
-            modal.style.display = "block";
-            // Accessing data attributes directly
-            const imageUrl = eventContainer.dataset.imageUrl;
-            const title = eventContainer.dataset.title;
-            const description = eventContainer.dataset.description;
-            const localDate = eventContainer.dataset.date;
-            const localTime = eventContainer.dataset.time;
-            const timezone = eventContainer.dataset.timezone;
-            const location = eventContainer.dataset.location;
-            const name = eventContainer.dataset.name;
-            const maxPrice = eventContainer.dataset.maxprice;
-            const minPrice = eventContainer.dataset.minprice;
-            eventDetailsContainer.innerHTML = "";
-            // Set new event details
-            eventDetailsContainer.innerHTML = `
-
-      <div class="modal-wrapper">
-        <img class="img-modal" src="${imageUrl}" alt="${title}" />
-    
-        <div class="modal-content-wrapper">
-          <div class="header-modal">
-            <img class="large-img" src="${imageUrl}" alt="${title}" />
-            <div class="event-details"> 
-              <h2 class="modal-headings">INFO</h2>
-              <p class="event-info tablet">${title}</p>
-              <p class="event-info tablet">${description}</p>
-    
-              <h2 class="modal-headings">WHEN</h2>
-              <p class="event-info tablet">${localDate} at ${localTime} (${timezone})</p>
-            </div>
-          </div>
-    
-          <div class="container">
-            <div class="info-section">
-              <h2 class="modal-headings">WHERE</h2>
-              <p class="event-info">${location} (${timezone})</p>
-    
-              <h2 class="modal-headings">WHO</h2>
-              <p class="event-info">${name}</p>
-            </div>
-            <div class="price-details">
-              <h2 class="modal-headings">PRICES</h2>
-              <div class="price-section"></div>
-            </div>
-          </div>
-    
-
-          <div  class="buttons-wrapper">
-          <div>
-            <div class="price-wrapper">
-              <svg class="barcode-icon"></svg>
-              <p class="event-info price">VIP ${maxPrice}</p>
-            </div>
-            <button class="buy-tickets-btn">BUY TICKETS</button>
-          </div>
-    
-          <div>
-            <div class="price-wrapper">
-              <svg class="barcode-icon"></svg>
-              <p class="event-info price">Standard ${minPrice}</p>
-            </div>
-            <button class="buy-tickets-btn">BUY TICKETS</button>
-          </div>
-    </div>
-          <div class="more-btn-wrapper">
-            <button class="more-btn">MORE FROM THIS AUTHOR</button>
-          </div>
-    
-        </div>
-      </div>
-    `;
-        }
-        // Close the modal when the close button is clicked
-        if (e.target === closeBtn) modal.style.display = "none";
-        // Close the modal when clicking outside of it
-        if (e.target === modal) modal.style.display = "none";
+parcelHelpers.export(exports, "selectTimezone", ()=>selectTimezone);
+var _paginationJs = require("./pagination.js");
+const selectTimezone = (events)=>{
+    const countrySelect = document.getElementById("choices");
+    let choices = new Choices(countrySelect);
+    const uniqueTimezones = events.filter((event)=>event.dates.timezone);
+    uniqueTimezones.forEach((event)=>{
+        const option = document.createElement("option");
+        option.value = event.dates.timezone;
+        option.textContent = event.dates.timezone;
+        countrySelect.appendChild(option);
     });
+    countrySelect.addEventListener("change", (event)=>{
+        const selectedTimezone = event.target.value;
+        if (selectedTimezone) {
+            const filtered = events.filter((event)=>event.dates.timezone === selectedTimezone);
+            (0, _paginationJs.applyFilter)(filtered);
+        } else (0, _paginationJs.pagination)(events);
+    });
+    choices.destroy();
+    choices = new Choices(countrySelect);
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
+},{"./pagination.js":"9j1Dd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["9mu7C","8lqZg"], "8lqZg", "parcelRequire94c2")
 
 //# sourceMappingURL=index.975ef6c8.js.map
