@@ -886,37 +886,60 @@ const modal = (events)=>{
             eventDetailsContainer.innerHTML = `
 
       <div class="modal-wrapper">
-        <img class="img-modal" src="${imageUrl}" alt="${title}" class="img-event" />
+        <img class="img-modal" src="${imageUrl}" alt="${title}" />
+    
+        <div class="modal-content-wrapper">
+          <div class="header-modal">
+            <img class="large-img" src="${imageUrl}" alt="${title}" />
+            <div class="event-details"> 
+              <h2 class="modal-headings">INFO</h2>
+              <p class="event-info tablet">${title}</p>
+              <p class="event-info tablet">${description}</p>
+    
+              <h2 class="modal-headings">WHEN</h2>
+              <p class="event-info tablet">${localDate} at ${localTime} (${timezone})</p>
+            </div>
+          </div>
+    
+          <div class="container">
+            <div class="info-section">
+              <h2 class="modal-headings">WHERE</h2>
+              <p class="event-info">${location} (${timezone})</p>
+    
+              <h2 class="modal-headings">WHO</h2>
+              <p class="event-info">${name}</p>
+            </div>
+            <div class="price-details">
+              <h2 class="modal-headings">PRICES</h2>
+              <div class="price-section"></div>
+            </div>
+          </div>
+    
 
-        <h2 class="modal-headings">INFO</h2>
-        <p class="event-info">${title}</p>
-        <p class="event-info">${description}</p>
-
-        <h2 class="modal-headings">WHEN</h2>
-        <p class="event-info">${localDate} at ${localTime} (${timezone})</p>
-
-        <h2 class="modal-headings">WHERE</h2>
-        <p class="event-info">${location} (${timezone})</p>
-
-        <h2 class="modal-headings">WHO</h2>
-        <p class="event-info">${name} </p>
-
-   <div class="price-details">
-          <h2 class="modal-headings">PRICES</h2>
-      <div class="price-wrapper">
-           <svg class="barcode-icon"></svg>
-          <p class="event-info price"> VIP ${maxPrice} </p>
+          <div  class="buttons-wrapper">
+          <div>
+            <div class="price-wrapper">
+              <svg class="barcode-icon"></svg>
+              <p class="event-info price">VIP ${maxPrice}</p>
+            </div>
+            <button class="buy-tickets-btn">BUY TICKETS</button>
+          </div>
+    
+          <div>
+            <div class="price-wrapper">
+              <svg class="barcode-icon"></svg>
+              <p class="event-info price">Standard ${minPrice}</p>
+            </div>
+            <button class="buy-tickets-btn">BUY TICKETS</button>
+          </div>
+    </div>
+          <div class="more-btn-wrapper">
+            <button class="more-btn">MORE FROM THIS AUTHOR</button>
+          </div>
+    
+        </div>
       </div>
-          <button class="buy-tickets-btn">BUY TICKETS</button>
-      <div class="price-wrapper">
-          <svg class="barcode-icon"></svg>
-           <p class="event-info price"> Standard ${minPrice} </p>
-      </div>
-          <button class="buy-tickets-btn">BUY TICKETS</button>
-</div>
-<button class="more-btn">MORE FROM THIS AUTHOR</button>
-                 </div>
-      `;
+    `;
         }
         // Close the modal when the close button is clicked
         if (e.target === closeBtn) modal.style.display = "none";

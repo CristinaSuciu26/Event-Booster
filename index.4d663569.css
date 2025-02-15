@@ -392,6 +392,7 @@ input[type="text"], input::placeholder {
 
 .modal-headings {
   color: #dc56c5;
+  text-align: center;
   padding: 10px;
   font-family: Montserrat, serif;
   font-size: 20px;
@@ -402,6 +403,13 @@ input[type="text"], input::placeholder {
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  display: flex;
+}
+
+.buttons-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
@@ -470,6 +478,10 @@ input[type="text"], input::placeholder {
   display: flex;
 }
 
+.large-img {
+  display: none;
+}
+
 @media screen and (width >= 468px) {
   .event-container {
     max-width: calc(30% - 30px);
@@ -525,8 +537,86 @@ input[type="text"], input::placeholder {
   .modal-content {
     border-top-left-radius: 200px;
     border-bottom-right-radius: 200px;
-    width: 604px;
-    height: 550px;
+    width: 99vw;
+    height: 90vh;
+    max-height: 804px;
+    padding: 50px;
+  }
+
+  .large-img {
+    width: 249px;
+    height: 217px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .header-modal {
+    flex-direction: row;
+    gap: 30px;
+    display: flex;
+  }
+
+  .tablet {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  .img-modal {
+    margin-bottom: 70px;
+  }
+
+  .info-section {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+    display: flex;
+  }
+
+  .price-section {
+    gap: 31px;
+    display: flex;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    display: flex;
+  }
+
+  .modal-headings, .event-info, .price-details, .price-section {
+    margin: 0;
+    padding: 0;
+  }
+
+  .modal-headings {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .buttons-wrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 80px;
+    padding-left: 9px;
+  }
+
+  .price-details {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    display: flex;
+  }
+
+  .more-btn-wrapper {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .event-details {
+    margin-top: -13px;
   }
 
   .copyright-container {
