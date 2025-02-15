@@ -378,7 +378,7 @@ input[type="text"], input::placeholder {
   width: 90vw;
   max-width: 400px;
   height: 130vh;
-  max-height: 609px;
+  max-height: 760px;
   margin: 20px auto 0;
   display: flex;
   position: relative;
@@ -445,6 +445,7 @@ input[type="text"], input::placeholder {
 
 .buy-tickets-btn {
   color: #fff;
+  cursor: pointer;
   background-color: #4c00fe;
   border: none;
   border-radius: 5px;
@@ -455,6 +456,7 @@ input[type="text"], input::placeholder {
 
 .more-btn {
   color: #4c00fe;
+  cursor: pointer;
   background-color: #fff;
   border-color: #4c00fe;
   border-radius: 5px;
