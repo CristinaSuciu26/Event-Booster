@@ -628,7 +628,6 @@ const fetchEvents = async (page = 0, size = 150)=>{
         const response = await fetch(`${BASE_URL}/events.json?apikey=${API_KEY}&page=${page}&size=${size}`);
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         const data = await response.json();
-        console.log(data);
         return data;
     } catch (error) {
         console.error("Error fetching events:", error);
@@ -766,10 +765,14 @@ const modal = (events)=>{
       </div>
     `;
         }
-        // Close the modal when the close button is clicked
-        if (e.target === closeBtn) modal.style.display = "none";
-        // Close the modal when clicking outside of it
-        if (e.target === modal) modal.style.display = "none";
+        if (eventContainer) {
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden";
+        }
+        if (e.target === closeBtn || e.target === modal) {
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
     });
 };
 
