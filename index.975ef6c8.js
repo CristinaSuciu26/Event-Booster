@@ -628,6 +628,7 @@ const fetchEvents = async (page = 0, size = 150)=>{
         const response = await fetch(`${BASE_URL}/events.json?apikey=${API_KEY}&page=${page}&size=${size}`);
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         const data = await response.json();
+        console.log(data);
         return data;
     } catch (error) {
         console.error("Error fetching events:", error);
@@ -705,6 +706,7 @@ const modal = (events)=>{
             const name = eventContainer.dataset.name;
             const maxPrice = eventContainer.dataset.maxprice;
             const minPrice = eventContainer.dataset.minprice;
+            const buyTicket = eventContainer.dataset.buyticket;
             eventDetailsContainer.innerHTML = "";
             // Set new event details
             eventDetailsContainer.innerHTML = `
@@ -746,7 +748,9 @@ const modal = (events)=>{
               <svg class="barcode-icon"></svg>
               <p class="event-info price">VIP ${maxPrice}</p>
             </div>
+               <a href="${buyTicket}" target="_blank">
             <button class="buy-tickets-btn">BUY TICKETS</button>
+            </a>
           </div>
     
           <div>
@@ -754,13 +758,11 @@ const modal = (events)=>{
               <svg class="barcode-icon"></svg>
               <p class="event-info price">Standard ${minPrice}</p>
             </div>
-            <button class="buy-tickets-btn">BUY TICKETS</button>
+           <a href="${buyTicket}" target="_blank">
+              <button class="buy-tickets-btn">BUY TICKETS</button>
+           </a>
           </div>
-    </div>
-          <div class="more-btn-wrapper">
-            <button class="more-btn">MORE FROM THIS AUTHOR</button>
-          </div>
-    
+    </div> 
         </div>
       </div>
     `;
@@ -864,6 +866,7 @@ const displayEvents = (events)=>{
         eventsCard.dataset.name = event.name;
         eventsCard.dataset.maxprice = event.priceRanges?.[0]?.max || "Price not available";
         eventsCard.dataset.minprice = event.priceRanges?.[0]?.min || "Price not available";
+        eventsCard.dataset.buyticket = event.url;
         eventsCard.innerHTML = `
   
     <div class="image-wrapper" >
