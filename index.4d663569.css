@@ -475,6 +475,10 @@ input[type="text"], input::placeholder {
   display: flex;
 }
 
+.buy-tickets-btn:hover {
+  box-shadow: 0 12px 16px #0000003d, 0 17px 50px #00000030;
+}
+
 .buy-tickets-btn {
   background-color: var(--modal-blue);
   color: var(--white);
