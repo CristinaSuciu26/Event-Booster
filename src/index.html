@@ -32,9 +32,7 @@
     <header>
       <div class="header-container">
         <div class="logo-container">
-          <svg class="logo">
-            <use href="./icons/logo.svg#icon-logo"></use>
-          </svg>
+          <svg class="logo"></svg>
         </div>
         <div class="header-content">
           <div class="title-container">
@@ -42,21 +40,7 @@
           </div>
 
           <form class="header-form">
-            <div class="input-container">
-              <style>
-                input:focus {
-                  outline: none;
-                  border-radius: 0%;
-                  background-color: rgba(17, 1, 1, 0.2);
-                  box-shadow: 0 0 8px rgba(220, 86, 197, 0.7);
-                }
-              </style>
-              <input type="text" placeholder="Start searching" />
-              <svg class="search-icon" fill="#939393">
-                <use href="./icons/search.svg#search-icon"></use>
-              </svg>
-            </div>
-
+            <div class="input-container"></div>
             <select id="choices">
               <option value="">Choose country</option>
             </select>
@@ -67,6 +51,11 @@
     <main class="main-container">
       <div class="main-content" id="event-container">
         <div class="event-container"></div>
+      </div>
+      <div id="modal" class="modal">
+        <div class="modal-content" id="modal-content">
+          <svg class="close-modal" id="close-modal"></svg>
+        </div>
       </div>
     </main>
 
@@ -79,6 +68,6 @@
         </p>
       </div>
     </footer>
-    <script type="module" src="./index.js"></script>
+    <script type="module" src="../src/index.js"></script>
   </body>
 </html>
